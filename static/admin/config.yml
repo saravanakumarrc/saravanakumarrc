@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: saravanakumarrc/wAfawn7a
+  repo: saravanakumarrc/wAfawn7a20
 
 media_folder: static/assets
 public_folder: assets
