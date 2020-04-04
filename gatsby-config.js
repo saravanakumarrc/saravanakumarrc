@@ -1,10 +1,10 @@
 module.exports = {
   siteMetadata: {
     // edit below
-    title: `coding it my way`,
+    title: `Saravanakumar`,
     author: `Saravanakumar Radhakrishnan`,
     description: `This is my personal portfolio site.`,
-    siteUrl: `https://codingitmyway.netlify.com/`,
+    siteUrl: `https://saravanakumar.netlify.com/`,
     social: {
       twitter: `iAmSaraDev`,
     },
@@ -86,4 +86,4 @@ module.exports = {
       },
     },
   ],
-}
+};

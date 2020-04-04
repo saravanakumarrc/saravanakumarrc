@@ -6,16 +6,16 @@ import { rhythm, scale } from "../utils/typography"
 
 class Layout extends React.Component {
   render() {
-    const { location, title, children } = this.props
-    const rootPath = `${__PATH_PREFIX__}/`
-    const blogPath = `${__PATH_PREFIX__}/blog/`
-    let header
+    const { location, title, children } = this.props;
+    const rootPath = `${__PATH_PREFIX__}/`;
+    const blogPath = `${__PATH_PREFIX__}/blog/`;
+    let header;
 
     if (location.pathname === rootPath || location.pathname === blogPath) {
       header = (
         <h1
           style={{
-            ...scale(1.5),
+            ...scale(1),
             marginBottom: rhythm(1.5),
             marginTop: 0,
           }}
