@@ -15,6 +15,7 @@ class IndexPage extends React.Component {
           title="Profile"
           keywords={[`saravanakumarrc`, `full-stack`, `javascript`, `react`, `c#`]}
         />
+        
         <Link to="/blog/">
           <Button marginTop="35px">Blog ></Button>
         </Link>
